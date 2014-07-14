@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://posra.nationbuilder.com/ -->
+<html class="js canvas geolocation video audio localstorage sessionstorage texttrackapi track formvalidation fieldsetdisabled styleableinputrange details polyfill-important wf-ovo-n4-active wf-crimsontext-n4-active wf-crimsontext-n6-active wf-crimsontext-i4-active wf-crimsontext-i6-active wf-exo2-n1-active wf-exo2-n4-active wf-exo2-n7-active wf-exo2-i4-active wf-exo2-i7-active wf-sourcesanspro-n2-active wf-sourcesanspro-n4-active wf-sourcesanspro-n7-active wf-sourcesanspro-i4-active wf-sourcesanspro-i7-active wf-tinos-n4-active wf-tinos-n7-active wf-tinos-i4-active wf-tinos-i7-active wf-active"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script src="./UCSC-IBM-Homepage_files/cb=gapi.loaded_0" async=""></script><script id="facebook-jssdk" async="" src="./UCSC-IBM-Homepage_files/all.js"></script><script src="./UCSC-IBM-Homepage_files/quant.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="./UCSC-IBM-Homepage_files/plusone.js" gapi_processed="true"></script><script id="twitter-wjs" src="./UCSC-IBM-Homepage_files/widgets.js"></script><script src="./UCSC-IBM-Homepage_files/form-core.js"></script><script src="./UCSC-IBM-Homepage_files/form-validation.js"></script><script src="./UCSC-IBM-Homepage_files/webfont.js" type="text/javascript" async=""></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"b908402cd3","applicationID":"1237919","transactionName":"clhXTRQOW10BQBsRWVZSShYVCVhG","queueTime":26,"applicationTime":682,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-411.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgYGUVVACQEDU1hTDg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){return u?u-=1:r("err",[s||new UncaughtException(t,e,n)]),"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(d){"stack"in d&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,d="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(d);if(f&&(r.rxSize=f),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,d=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var d=e(o);d&&(r.txSize=d)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var f=0;u>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===c.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,d="addEventListener",f="attachEvent",c=(""+location).split("?")[0],p=e.exports={offset:i(),origin:c,features:[]};u[d]?(u[d]("DOMContentLoaded",o,!1),s[d]("load",n,!1)):(u[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),d=this,f=r&&r(a,d)||{}}catch(c){i([c,"",[a,d,s],f])}o(e+"start",[a,d,s],f);try{return n=t.apply(d,a)}catch(p){throw o(e+"err",[a,d,p],f),p}finally{o(e+"end",[a,d,n],f)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,d="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,d?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+  <title>UCSC IBM Team</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="http://posra.nationbuilder.com/assets/webshims/shims/styles/shim.css"><link rel="stylesheet" href="./UCSC-IBM-Homepage_files/theme.scss" type="text/css">
+  <link rel="stylesheet" href="./UCSC-IBM-Homepage_files/tablet-and-desktop.scss" type="text/css" media="screen and (min-width: 768px)">
+
+  <!-- JavaScript Google font import for https -->
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Ovo::latin', 'Crimson+Text:400,600,400italic,600italic:latin', 'Exo+2:100,400,700,400italic,700italic:latin',  'Source+Sans+Pro:200,400,700,400italic,700italic:latin', 'Tinos:400,700,400italic,700italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+  <!-- because ie8 ignores media queries, we need this -->
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="http://posra.nationbuilder.com/themes/1/531fd482bfafd83e03000003/0/attachments/13962870071398215241/default/tablet-and-desktop.scss" type="text/css" />
+  <![endif]-->
+
+
+  <!--[if IE]>
+  <link rel="stylesheet" href="http://posra.nationbuilder.com/themes/1/531fd482bfafd83e03000003/0/attachments/13962870071398215241/default/ie.scss" type="text/css" />
+  <![endif]-->
+
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<meta content="authenticity_token" name="csrf-param">
+<meta content="Ei+Eed4hP0uKvpzTk5hzS7HOg73gH2Stgf/4tgI6t/s=" name="csrf-token">
+
+	<link rel="canonical" href="./UCSC-IBM-Homepage_files/UCSC-IBM-Homepage.html">
+		<meta name="Title" content="About P-OSRA">
+    <meta property="og:title" content="UCSC IBM Team">
+  <meta property="og:url" content="http://posra.nationbuilder.com/">
+    <meta property="og:type" content="article">
+  		<link rel="image_src" href="./UCSC-IBM-Homepage_files/UCSC_logo.jpg">
+			<meta property="og:image" content="http://d3n8a8pro7vhmx.cloudfront.net/posra/sites/1/meta_images/original/UCSC_logo.jpg?1396287073">
+  <meta property="og:site_name" content="UCSC IBM Team">
+	<meta property="fb:app_id" content="126739610711965">
+
+<script type="text/javascript">
+  var NB = NB || {};
+
+  NB.environment = "production";
+  NB.pageId = "1";
+  NB.Liquid = NB.Liquid || {};
+</script>
+
+<script type="text/javascript">
+		//<![CDATA[
+			window._auth_token_name = "authenticity_token";
+			window._auth_token = "Ei+Eed4hP0uKvpzTk5hzS7HOg73gH2Stgf/4tgI6t/s=";
+		//]]>
+</script>
+
+  <link rel="stylesheet" href="./UCSC-IBM-Homepage_files/jquery-ui.css" type="text/css" media="all">
+
+
+<!--[if lt IE 7.]>
+<script type="text/javascript" src="/javascripts/jquery.supersleight.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ovo%7CCrimson+Text:400,600,400italic,600italic%7CExo+2:100,400,700,400italic,700italic%7CSource+Sans+Pro:200,400,700,400italic,700italic%7CTinos:400,700,400italic,700italic&subset=latin,latin,latin,latin,latin"><script src="./UCSC-IBM-Homepage_files/main-7a4c28c31c3c46a6b289f343e29c2506.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  window.twttr = (function (d,s,id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+    js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));
+</script>
+
+<script type="text/javascript">
+  //Facebook App ID
+  NB.FBAppId = '126739610711965';
+</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = '//apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
+
+<!-- Quantcast Tag, part 1 -->
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+
+  (function() {
+   var elem = document.createElement('script');
+
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);
+  })();
+</script>
+
+<!-- Theme: Name - Presence; ID - 531fd482bfafd83e03000003; - API Version - 2 -->
+
+
+  <script type="text/javascript" src="./UCSC-IBM-Homepage_files/jquery.ui.effect.min.js"></script>
+  <script type="text/javascript" src="./UCSC-IBM-Homepage_files/jquery.ui.effect-slide.min.js"></script>
+  <script type="text/javascript" src="./UCSC-IBM-Homepage_files/presence.js"></script>
+
+  <script type="text/javascript">
+    NB.appConfig.userIsLoggedIn = false;
+  </script>
+
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,.fb_connect_bar_container span,.fb_connect_bar_container a,.fb_connect_bar_container img,.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}.fb_connect_bar a:hover{color:#fff}.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}.fb_connect_bar div a,.fb_connect_bar span,.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}.fbpluginrecommendationsbarleft{left:10px}.fbpluginrecommendationsbarright{right:10px}</style></head>
+<body class="aware-theme v2-theme page-type-basic homepage   has-features has-logo js" data-twttr-rendered="true">
+  <div id="pattern" class="pattern">
+    <div class="wrap" id="wrap">
+      <div id="body" class="page-pages-show-basic-wide">
+
+        <div class="header-container clearfix">
+
+          <div class="fullwidth clearfix site-logo-wrap">
+
+            
+              
+
+
+
+
+
+  
+
+
+<div id="page-features" class="page-features" style="max-height: nonepx">
+
+  
+  
+  
+  <a href="./UCSC-IBM-Homepage_files/UCSC-IBM-Homepage.html" class="single-feature">
+    <img src="./UCSC-IBM-Homepage_files/redwood-national-park.jpg" height="1046" width="1601">
+  </a>
+    
+      <a class="features-headline desktop-visible" href="./UCSC-IBM-Homepage_files/UCSC-IBM-Homepage.html">UCSC P-OSRA Project</a>
+    
+  
+  
+  
+
+  
+    <div class="site-logo header-wrap">
+      <header><a href="./UCSC-IBM-Homepage_files/UCSC-IBM-Homepage.html"><img src="./UCSC-IBM-Homepage_files/UCSC_logo.jpg"></a></header>
+    </div>
+  
+  
+</div>
+
+
+
+
+              <hr class="header-rule">
+            
+
+            
+
+          </div>
+          <!-- .width-container -->
+
+        </div>
+        <!-- .header-container -->
+        
+        <div class="nav-wrap">
+          <nav id="menu" role="navigation" class="width-container" style="text-align: center;">
+  <ul id="topnav" class="topnav desktop-nav">
+    
+    
+    <li class="active">
+      <a href="./UCSC-IBM-Homepage_files/UCSC-IBM-Homepage.html">About P-OSRA</a>
+    </li>
+    
+    
+    
+    <li>
+      <a href="http://posra.nationbuilder.com/application">Application</a>
+    </li>
+    
+    
+    
+    <li>
+      <a href="http://posra.nationbuilder.com/development">Development</a>
+    </li>
+    
+    
+    
+    <li>
+      <a href="http://posra.nationbuilder.com/publications">Publications</a>
+    </li>
+    
+    
+    
+    <li>
+      <a href="http://posra.nationbuilder.com/acknowledgement">Acknowledgement</a>
+    </li>
+    
+    
+    
+    <li>
+      <a href="http://posra.nationbuilder.com/the_team">The Team</a>
+    </li>
+    
+    
+    
+    <li>
+      <a href="http://posra.nationbuilder.com/contact">Contact</a>
+    </li>
+    
+    
+  </ul>
+</nav>
+
+<a href="http://posra.nationbuilder.com/#menu" class="menu-link"><i class="icon-menu"></i></a>
+        </div>
+
+        <div class="main-container" id="middle">
+          <div class="main width-container clearfix">
+
+            
+            <div class="onecolumn-container clearfix">
+
+  <div class="columns-1-flash"><div id="flash_container">
+
+
+
+</div>
+</div>
+
+  <div class="content-pages-show-basic-wide">
+    
+
+
+
+
+
+
+
+<h2 class="headline">About P-OSRA</h2>
+
+
+<div id="content">
+
+  <div id="intro" class="intro">
+    <div class="text-content">
+      <div style="font-size: 18px; line-height: 25px;">
+<div style="height: 400px;">
+<div style="float: left;">
+<p style="text-align: left;">P-OSRA started in Winter quarter 2014 as part of Computer Science 116: Software Design Project, in which teams of students put into practice what they learned in the prerequisite course, Computer Science 115: Software Engineering. This course focuses on the characteristics of well-engineered software systems. Topics include requirements analysis and specification, design, programming, verification and validation, maintenance, and project management. Practical and research methods are also studied, with the overall goal to impart an understanding of the steps used to effectively develop computer software.</p>
+<p style="text-align: left;">In course 116, students have the opportunity to work on a software engineering project sponsored by willing companies in the tech industry. Before the course began, researchers from <a href="http://www.research.ibm.com/client-programs/accelerated-discovery-lab/">IBM's Accelerated Discovery Lab</a> in San Jose, CA proposed a project dealing with the analysis and collection of polymer data from published literature and patents to ultimately aid in solutions to big data analytics problems in the materials science industry. Specifically, IBM was interested in extending the features of an existing open source application that is used to analyze chemical diagrams and generate a text representation of the molecule called a <a href="https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system">SMILES</a> string - the desired format for data analysis compatibility and research. However, in its original state, this application did not work on polymers. Our project's goal was to add this functionality.</p>
+<p style="text-align: left;">After one quarter's work on the project, our group is proud to announce a working prototype that can be viewed as a proof of concept. We will continue work in this project through the end of Spring quarter 2014 as part of course 117.</p>
+<p style="text-align: left;">&nbsp;</p>
+</div>
+<div style="width: 50%; float: left;">
+<p style="text-align: center;"><strong>ABSTRACT</strong></p>
+<p style="text-align: justify;">The recognition of polymer images in literature and patents is key for automatic understanding of the wealth of polymer data already known. While tools such as <a href="http://cactus.nci.nih.gov/osra/">OSRA</a> (Optical Structure Recognition Application) exist to identify and interpret chemical structure images, these tools do not yet work for polymers. Our tool, Polymer OSRA (P-OSRA) extends OSRA’s capabilities by being able to recognize brackets and parentheses in chemical diagrams. To date, P-OSRA pre-scans the image; records and alters the image by removing brackets and parentheses from the diagram; calls OSRA and then collects and edits the resulting <a href="https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system">SMILES</a>&nbsp;string from <a href="http://openbabel.org/wiki/Main_Page">OpenBabel</a> to reflect changes needed for describing a polymer image. P-OSRA then populates a datamodel to allow for subsequent querying of polymer substructures (such as repeat units).</p>
+</div>
+<div style="width: 50%; float: left; vertical-align: middle;">
+<p style="vertical-align: middle;">&nbsp;</p>
+<p style="vertical-align: middle;">&nbsp;<img src="./UCSC-IBM-Homepage_files/logo.png" alt="">&nbsp;<span style="text-align: center;">&nbsp;&nbsp;</span><span style="text-align: center;">&nbsp;&nbsp;</span></p>
+<p style="vertical-align: middle;">&nbsp;</p>
+<p style="vertical-align: middle;">&nbsp;</p>
+<p style="vertical-align: middle;">&nbsp;</p>
+</div>
+</div>
+<div>
+<p style="text-align: center;"><strong>HIGH LEVEL PROCESS DIAGRAM</strong></p>
+<p><img src="./UCSC-IBM-Homepage_files/hlp.png" alt="" width="2444" height="313"></p>
+<p>&nbsp;</p>
+</div>
+<div>
+<div style="width: 53%; float: left; padding: 10px;">
+<p style="text-align: center;"><strong>INTRODUCTION</strong></p>
+<p style="text-align: justify;">Accelerated materials discovery is at the core of innovation, economic opportunities, and global competitiveness. The research process is responsible for bringing new materials to market. In 2011, President Obama launched the U.S. Material Genome Initiative (MGI) and challenged researchers, policy makers, and business leaders to reduce the time and resources needed to bring new materials to market—a process that today can take 20 years or more. There is great potential in leveraging modern data mining, big data analytics techniques, and physics based modeling (high performance computing) to significantly shorten the Research &amp; Development cycle in material sciences. Polymers, as an important part of materials science, are the focus of much research for applications in the areas of semiconductors (e.g. low-k dielectrics, photolithography, and directed self-assembly), nanomaterials, polymeric drug delivery vehicles, desalination membranes, and recyclable polymers for green &nbsp;chemistry. In order to accelerate polymer discovery, the first challenge is to automate the retrieval of all polymers made to date both in the literature and in patents. Although there are standardized nomenclatures for small molecules, standardized nomenclature for polymers is not straight forward and it is often more informative to represent these molecules as molecular structure diagrams or acronyms. Thus, this project’s goal is to identify polymer images in published research, analyze them and output the structure to a datamodel &nbsp;that allows &nbsp;their substructures to be queried.</p>
+</div>
+<div style="width: 47%; float: left; padding: 10px;">
+<p style="text-align: center;"><strong>BACKGROUND</strong></p>
+<p style="text-align: justify;">P-OSRA extends OSRA, a tool for parsing images of chemical structures in documents, to support <span style="text-align: justify;">polymer diagrams</span> that use bracket and parentheses notation in their representations.&nbsp; P-OSRA also offers a data interface to allow storage and querying of repeat units and end groups (sub-components of the polymers).&nbsp; This is important because</p>
+<p style="text-align: justify; padding-left: 30px;">“Proliferation of computer technologies has brought forward the necessity of new data formats to exchange information in a machine-readable way within the context of a scientific publication … Our approach to recovery of chemical information from published material is to reuse to the fullest extent possible the existing software created by the open source community and to invite further development and participation by releasing our work as free and open source ... OSRA has been designed with a wide range of applicability in mind: it does not rely on the document image being of any particular resolution, color depth, or having any particular font used. To manipulate images, OSRA employs the ImageMagick library [4] that allows parsing of over 90 different image formats, including the popular TIFF, JPEG, GIF, PNG, as well as Postscript and PDF…”[5, page 1].</p>
+<p style="text-align: justify; padding-left: 30px;">&nbsp;</p>
+</div>
+</div>
+<p align="center"><strong>REFERENCES</strong></p>
+<div style="text-align: justify;">
+<p>1. I. V. Filippov, “OSRA: Optical Structure Recognition <br> Application”, &lt;http://cactus.nci.nih.gov/osra/&gt;, N.p., n.d. <br> Sept. 12, 2009.<br>2. D. Weininger. "SMILES, a chemical language and information system. 1. Introduction to <br> methodology and encoding rules".&nbsp;J. Chem. Inf. Model, 1988, 28, 31 <br>3. Noel M O'Boyle, Michael Banck, Craig A James, Chris Morley, Tim Vandermeersch and Geoffrey R<br> Hutchison. "Open Babel: An open chemical toolbox”.J Cheminf, 2011, 3, 33 &nbsp;<br>4. "Convert, Edit, and Compose Images."&nbsp;ImageMagick: Convert, Edit, Or Compose Bitmap Images.<br> N.p., n.d. Web. 02 Apr. 2014.<br>5. I. V. Filippov, M. C. Nicklaus,<br> “Optical Structure Recognition Software To Recover <br> Chemical Information: OSRA, An Open Source Solution” <br> J. Chem. Inf. Model., 2009, 49, 740<br>6. T. Halpin, "Object Role Modeling." &lt;www.orm.net&gt; N.p., <br> n.d. Feb. 28 2014. <br>7. “MySQL :: The World's Most Popular Open Source Database." MySQL :: The World's Most <br> Popular Open Source Database. N.p., n.d. Web. 01 Apr. 2014.&nbsp;<br>8. D. van Heesch. "Doxygen." &lt;www.doxygen.org&gt;. N.p., n.d. <br> Feb. 24. 2014&nbsp;<br>9. “Get." OpenMPorg RSS. N.p., n.d. Web. 01 Apr. 2014.</p>
+</div>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <!--
+  <div class="like-page">
+    <strong>Do you like this page?</strong>
+    <div class="sharetable padtopless clearfix">
+  <div class="facebook-cell">
+    
+    <div class="desktop-visible">
+      <fb:like href="http://posra.nationbuilder.com/" show_faces="false" width="300" colorscheme="light" send="true" action="like"></fb:like>
+    </div>
+    <div class="mobile-visible">
+      <fb:like href="http://posra.nationbuilder.com/" show_faces="false" width="200" colorscheme="light" send="false" action="like"></fb:like>
+    </div>
+    
+  </div>
+  <div class="twitter-cell">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-text="About" data-via="">Tweet</a>
+  </div>
+  <div class="gplus-cell"><g:plusone count="false" size="medium"></g:plusone></div>
+</div>
+
+  </div>
+-->
+  
+
+</div>
+  </div>
+
+</div>
+<!-- /onecolumn-container -->
+            
+
+          </div>
+          <!-- .main -->
+        </div>
+        <!-- .main-container -->
+
+        <div class="footer-wrap" style="min-height: 0px;">
+          <footer class="clearfix width-container">
+
+            <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./UCSC-IBM-Homepage_files/V80PAcvrynR.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./UCSC-IBM-Homepage_files/V80PAcvrynR(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId  : 126739610711965,
+      channelUrl : "//posra.nationbuilder.com/channel.html",
+      status     : true,
+      cookie     : true,
+      xfbml      : true
+    });
+  };
+  (function(d, debug){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document, false));
+</script>
+
+
+<script src="./UCSC-IBM-Homepage_files/liquid-eb6290b7c89f0d9a88595f96f29f8423.js" type="text/javascript"></script>
+<script src="./UCSC-IBM-Homepage_files/tinymce-jquery-3394f9df7e6f3ccb696cb4c0eaedfe27.js" type="text/javascript"></script>
+
+
+
+<!-- Quantcast Tag, part 2 -->
+<script type="text/javascript">
+_qevents.push(
+	{ qacct:"p-5ftmjaPECGTTU" }
+	);
+</script>
+
+<noscript>
+&lt;div style="display: none;"&gt;&lt;img src="//pixel.quantserve.com/pixel?a.1=p-5ftmjaPECGTTU" height="1" width="1" alt="Quantcast"/&gt;&lt;/div&gt;
+</noscript>
+
+
+
+            
+
+            <div class="row-fluid">
+
+              <div class="span7 footer-left left-column textnarrow">
+                
+                  Sign in with <a href="http://posra.nationbuilder.com/users/facebook/connect?page_id=1&scope=publish_stream,email,user_location,friends_location">Facebook</a>, <a href="http://posra.nationbuilder.com/users/twitter/connect?page_id=1">Twitter</a> or <a href="http://posra.nationbuilder.com/login">email</a>.
+                
+              </div>
+              <div class="span5 footer-right right-column">
+                <!-- The NationBuilder link below is required. If it is removed, we may add it back ourselves.
+                     You can style it or move it in different ways, but please leave it in the footer. -->
+                Created with <a href="http://nationbuilder.com/">NationBuilder</a>
+              </div>
+
+            </div>
+          </footer>
+        </div>
+        <!-- .width-container -->
+
+      </div>
+      <!-- #body -->
+    </div>
+    <!-- #wrap -->
+  </div>
+  <!-- #pattern -->
+
+
+
+
+
+
+
+<script src="./UCSC-IBM-Homepage_files/nr-411.min.js"></script><script type="text/javascript" src="./UCSC-IBM-Homepage_files/b908402cd3"></script></body></html>

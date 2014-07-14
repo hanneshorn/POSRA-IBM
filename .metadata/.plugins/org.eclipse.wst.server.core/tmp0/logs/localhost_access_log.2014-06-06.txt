@@ -1,0 +1,13 @@
+127.0.0.1 - - [06/Jun/2014:10:41:37 -0700] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [06/Jun/2014:10:45:43 -0700] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [06/Jun/2014:10:45:44 -0700] "GET /posra/index.html HTTP/1.1" 200 378
+127.0.0.1 - - [06/Jun/2014:10:46:11 -0700] "GET /posra/index.html HTTP/1.1" 200 378
+127.0.0.1 - - [06/Jun/2014:10:49:32 -0700] "POST /posra/PolymerServlet HTTP/1.1" 500 3865
+127.0.0.1 - - [06/Jun/2014:10:49:32 -0700] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [06/Jun/2014:10:49:43 -0700] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [06/Jun/2014:10:49:44 -0700] "POST /posra/PolymerServlet HTTP/1.1" 404 949
+127.0.0.1 - - [06/Jun/2014:10:49:44 -0700] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [06/Jun/2014:10:49:47 -0700] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [06/Jun/2014:10:49:49 -0700] "POST /posra/PolymerServlet HTTP/1.1" 404 949
+127.0.0.1 - - [06/Jun/2014:10:50:16 -0700] "POST /posra/PolymerServlet HTTP/1.1" 404 949
+127.0.0.1 - - [06/Jun/2014:10:51:00 -0700] "GET /posra/WEB-INF/classes/posra/Polymer.java HTTP/1.1" 404 949

@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\IBM_ADMIN\Documents\GitHub\UCSC-IBM-POSRA-CORE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1080971100.index
+554889734.index
+3204046735.index
+3555121230.index
+3783492631.index
+3937435936.index
